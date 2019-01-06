@@ -86,7 +86,7 @@ e.g..
 * Please describe the external plugins you used and its usage precisely.
 # Example usage
   ```
-  TESTDATADIR="./path/to/cifar10/data" python3 example.py
+  TESTDATADIR="/tmp/dataset-nctu/clothes/clothes_test/" python3 clothes_recognize.py
   ```
   * default: overide team 12 data
 # Score sheet link
