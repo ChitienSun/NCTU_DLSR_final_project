@@ -28,7 +28,7 @@ def list_file(dataset_dir):
     list_filenames.close()
 
 
-weightfile = 'clothes/cfg/000200e.weights'
+weightfile = 'cfg/000200e.weights'
 #weightfile = 'clothes/cfg/000080d.weights'
 cfgfile = 'clothes/cfg/clothes.cfg'
 datacfg = 'clothes/cfg/clothes.data'
@@ -82,6 +82,7 @@ def truths_length(truths):
 @benchmarking(team=3, task=2, model=model, preprocess_fn=None)
 def inference(model, test_loader, **kwargs):
     beta = kwargs['beta']
+    #device = kwargs['device']
     beta_s = beta * beta
     
     model = model.to(device)
