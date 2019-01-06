@@ -1,0 +1,13 @@
+0.4.0
+Test Set: valid
+100 1
+Making model...
+Load the model from ./edsr_baseline_download.pt
+
+Evaluation:
+[valid x2]	PSNR: 36.132 (Best: 36.132 @epoch 1)
+Forward: 42.80s
+
+Saving...
+Total: 42.80s
+
