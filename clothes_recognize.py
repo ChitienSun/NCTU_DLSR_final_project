@@ -22,7 +22,7 @@ from darknet import Darknet
 def list_file(dataset_dir):
     filenames = glob.glob('{}/images/*.jpg'.format(dataset_dir))
     
-    list_filenames = open('cfg/valid.txt', 'w')
+    list_filenames = open('clothes/cfg/valid.txt', 'w')
     for filename in filenames:
         list_filenames.write('%s\n'%(filename))
     list_filenames.close()
