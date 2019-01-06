@@ -28,7 +28,7 @@ def list_file(dataset_dir):
     list_filenames.close()
 
 
-weightfile = 'cfg/000200e.weights'
+weightfile = 'clothes/cfg/000200e.weights'
 #weightfile = 'clothes/cfg/000080d.weights'
 cfgfile = 'clothes/cfg/clothes.cfg'
 datacfg = 'clothes/cfg/clothes.data'
