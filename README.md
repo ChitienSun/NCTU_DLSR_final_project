@@ -6,6 +6,8 @@
 - $ TESTDATADIR="/tmp/dataset-nctu/clothes/test/" python3 clothes_recognize.py
 - 指定檔案位置。程式將先列出/tmp/dataset-nctu/clothes/test/images/ 下所有jpg檔案，
 - 並更新 clothes/cfg/valid.txt 後進行偵測
+- 執行前，請先下載weights，並置於目錄 clothes/cfg 之下。weights位於
+- https://drive.google.com/open?id=17TPyHT1Fo-4bQcCgSfwtqgbXF2AZ6Y8d
 
 # 評分環境
 - 機器: NCHC Aitrain container
