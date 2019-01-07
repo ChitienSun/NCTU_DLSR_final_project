@@ -1,9 +1,9 @@
 # CINIC10影像分類執行方法
 1. 資料準備:執行A或B
-   A.下載封裝好的cinic10_train.npz以及cinic10_test.npz，並將封裝檔放在cinic10資料夾內
-      https://drive.google.com/open?id=1Mqdc3HWEZMkQqnwPA70tbwH95KncrCEr
-      https://drive.google.com/open?id=1BSnrVXoL9IOdWyjfrKQlyBsoSadghXxx
-   B.自行產生NPZ file，方法如下：
+- A.下載封裝好的cinic10_train.npz以及cinic10_test.npz，並將封裝檔放在cinic10資料夾內
+-   https://drive.google.com/open?id=1Mqdc3HWEZMkQqnwPA70tbwH95KncrCEr
+-   https://drive.google.com/open?id=1BSnrVXoL9IOdWyjfrKQlyBsoSadghXxx
+- B.自行產生NPZ file，方法如下：
 ```python
 import os
 import sys
