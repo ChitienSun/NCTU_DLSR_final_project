@@ -18,7 +18,7 @@ cinic10_npz.save_npz()
 ```
 2. 執行影像分類
 - $ python cinic_classification.py
-  會自動載入cinic10資料夾內的checkpoint.pth.tar作為使用model，以及步驟1中製作的測試資料集(cinic10/cinic10_test.npz)做inference
+- 會自動載入cinic10資料夾內的checkpoint.pth.tar作為使用model，以及步驟1中製作的測試資料集(cinic10/cinic10_test.npz)做inference
 - 執行結果如下所示：
 ```
 Start update
