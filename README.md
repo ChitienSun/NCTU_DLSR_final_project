@@ -19,7 +19,7 @@ cinic10_npz.save_npz()
 2. 執行影像分類
 - $ python cinic_classification.py
   會自動載入cinic10資料夾內的checkpoint.pth.tar作為使用model，以及步驟1中製作的測試資料集(cinic10/cinic10_test.npz)做inference
-  執行結果如下所示:
+- 執行結果如下所示:
 ```
 Start update
 cpu_metric: 84.63888888888889, cpu: 7.969727993011475 s,gpu_metric: 84.63888888888889, gpu:7.921760082244873, num of weight:274042.0, size: 1.0453872680664062 MB
