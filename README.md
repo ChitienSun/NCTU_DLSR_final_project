@@ -25,6 +25,34 @@ Start update
 cpu_metric: 84.63888888888889, cpu: 7.969727993011475 s,gpu_metric: 84.63888888888889, gpu:7.921760082244873, num of weight:274042.0, size: 1.0453872680664062 MB
 ```
 
+# Super Resolution 執行方法
+```
+1. Environment preparation:
+===========================
+cd /home/dllab/ngraph
+source ~/ngraph/onnx/bin/activate
+pip install --upgrade pip
+pip3 install --force-reinstall torch==0.4.0
+cd ~/TensorRT-5.0.2.6/python
+pip3 install tensorrt-5.0.2.6-py2.py3-none-any.whl
+pip install matplotlib
+pip install imageio
+pip install tqdm
+pip install scikit-image
+
+2. NOTICE:
+==========
+Make sure your testset are put in directory:
+    [TESTDATADIR]/DIV2K/DIV2K_valid_HR
+          and
+    [TESTDATADIR]/DIV2K/DIV2K_valid_LR_bicubic
+
+3. Usage:
+=========
+in directoy ./super_resolution/EDSR-PyTorch/src
+$ TESTDATADIR=[PATH to DIV2K VALIDATE DATA] python3 example.py
+```
+
 # 物件偵測執行方法
 - $ python clothes_recognize.py
 - 會自動擷取 clothes/cfg/valid.txt 內容所列檔案名稱進行物件偵測
