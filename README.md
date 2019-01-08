@@ -26,6 +26,7 @@ cpu_metric: 84.63888888888889, cpu: 7.969727993011475 s,gpu_metric: 84.638888888
 ```
 
 # Super Resolution 執行方法
+```
 1. Environment preparation:
 ===========================
 cd /home/dllab/ngraph
@@ -50,6 +51,7 @@ Make sure your testset are put in directory:
 =========
 in directoy ./super_resolution/EDSR-PyTorch/src
 $ TESTDATADIR=[PATH to DIV2K VALIDATE DATA] python3 example.py
+```
 
 # 物件偵測執行方法
 - $ python clothes_recognize.py
