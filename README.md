@@ -63,6 +63,8 @@ $ TESTDATADIR=[PATH to DIV2K VALIDATE DATA] python3 example.py
 - 並更新 clothes/cfg/valid.txt 後進行偵測
 - 執行前，請先下載weights，並置於目錄 clothes/cfg 之下。weights位於
 - https://drive.google.com/open?id=17TPyHT1Fo-4bQcCgSfwtqgbXF2AZ6Y8d
+- 為因應國網機器可使用 main memory太小，clothes_recognize_bs2.py 為 batch size = 2
+- 執行時間會加長
 
 # 評分環境
 - 機器: NCHC Aitrain container
